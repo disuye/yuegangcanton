@@ -1,0 +1,57 @@
+/** yuegangcanton.com **/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: calc(1.1rem + 0.5vw);
+    line-height: calc(1.5rem + 0.5vw);
+    background-color: #231F20;
+    color: white !important;
+    text-rendering: geometricPrecision;
+    white-space: pre-line;
+    overflow: hidden;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.1) inset;
+}
+
+/** BOUNDING AREA **/
+
+.words {
+    display: block; 
+    position: absolute; 
+    top: 50%; left: 50%;
+      transform: translate(-50%,-50%) rotateZ(0deg);
+    cursor: default;
+    background-color: transparent;
+}
+.words img {
+    max-width: 90vw !important;
+}
+.words i {
+font-style: normal !important;
+font-size: calc(0.8rem + 0.5vw);
+}
+.words a {
+    display: inline-block;
+    text-decoration: none; 
+    border-top: 0.05rem solid LightGray;
+    border-bottom: 0.05rem solid LightGray;
+    padding-bottom: 0.0rem;
+    color: white;
+    background-color: transparent;
+}		
+.words a:hover {
+    border-top: 0.05rem solid #FFF3BD;
+    border-bottom: 0.05rem solid #ED1E24;
+    position: relative;
+}
+
+/** END **/
