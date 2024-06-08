@@ -19,7 +19,7 @@ body {
     text-rendering: geometricPrecision;
     white-space: pre-line;
     overflow-x: hidden;
-    box-shadow: 0px 0px 100px rgba(0,0,0,0.1) inset;
+    box-shadow: 0px 0px 100px rgba(201,0,0,0.3) inset;
 }
 .words {
     display: block; 
@@ -35,7 +35,7 @@ body {
     width: 400px;
     max-width: 90vw !important;
 }
-.words i {
+.small {
 font-style: normal !important;
 font-size: calc(0.8rem + 0.5vw);
 }
@@ -53,12 +53,26 @@ font-size: calc(0.8rem + 0.5vw);
     border-bottom: 0.05rem solid #ED1E24;
     position: relative;
 }
-
-
+.darkgold {
+    color: #CBA87D;
+    color: rgba(203,168,125,1.0);
+}
+.gold {
+    color: #FFF2BD;
+    color: rgba(255,242,189,1.0);
+}
+.darkred {
+    color: #C90000;
+    color: rgba(201,0,0,1.0);
+}
+.red {
+    color: #ED1E24;
+    color: rgba(237,30,35,1.0);
+}
 @media only screen and (max-height: 600px) {
     .words {
         top: 50%; left: 50%;
-          transform: translate(-50%,-25%) rotateZ(0deg);
+          transform: translate(-50%,-15%) rotateZ(0deg);
           padding-top: 5%;
     }
     .words img {
@@ -66,5 +80,4 @@ font-size: calc(0.8rem + 0.5vw);
         max-width: 90vh !important;
     }    
 }
-
 /** END **/
