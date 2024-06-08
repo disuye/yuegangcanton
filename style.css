@@ -75,7 +75,7 @@ font-size: calc(0.8rem + 0.5vw);
     }
     .words img {
         width: 400px;
-        max-width: 90vh !important;
+        max-width: 80vh !important;
     }    
 }
 /** END **/
