@@ -18,19 +18,21 @@ body {
     color: white !important;
     text-rendering: geometricPrecision;
     white-space: pre-line;
-    overflow: hidden;
+    overflow-x: hidden;
     box-shadow: 0px 0px 100px rgba(0,0,0,0.1) inset;
 }
-
 .words {
     display: block; 
     position: absolute; 
     top: 50%; left: 50%;
-      transform: translate(-50%,-50%) rotateZ(0deg);
+    transform: translate(-50%,-50%) rotateZ(0deg);
     cursor: default;
     background-color: transparent;
+    padding-bottom: 5%;
+    transition: 0.5s all ease-in-out; 
 }
 .words img {
+    width: 400px;
     max-width: 90vw !important;
 }
 .words i {
@@ -50,6 +52,19 @@ font-size: calc(0.8rem + 0.5vw);
     border-top: 0.05rem solid #FFF3BD;
     border-bottom: 0.05rem solid #ED1E24;
     position: relative;
+}
+
+
+@media only screen and (max-height: 600px) {
+    .words {
+        top: 50%; left: 50%;
+          transform: translate(-50%,-25%) rotateZ(0deg);
+          padding-top: 5%;
+    }
+    .words img {
+        width: 400px;
+        max-width: 90vh !important;
+    }    
 }
 
 /** END **/
