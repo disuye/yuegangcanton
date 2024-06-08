@@ -41,8 +41,8 @@ font-size: calc(0.8rem + 0.5vw);
 .words a {
     display: inline-block;
     text-decoration: none; 
-    border-top: 0.05rem solid LightGray;
-    border-bottom: 0.05rem solid LightGray;
+    border-top: 0.05rem dotted rgba(203,168,125,1.0);
+    border-bottom: 0.05rem dotted rgba(201,0,0,1.0);
     padding-bottom: 0.0rem;
     color: white;
     background-color: transparent;
