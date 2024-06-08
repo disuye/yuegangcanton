@@ -24,7 +24,7 @@ body {
     display: block; 
     position: absolute; 
     top: 50%; left: 50%;
-    transform: translate(-50%,-45%) rotateZ(0deg);
+    transform: translate(-50%,-50%) rotateZ(0deg);
     cursor: default;
     background-color: transparent;
     padding-bottom: 5%;
@@ -68,11 +68,10 @@ font-size: calc(0.8rem + 0.5vw);
     color: #ED1E24;
     color: rgba(237,30,35,1.0);
 }
-@media only screen and (max-height: 600px) {
+@media only screen and (max-height: 800px) {
     .words {
         top: 50%; left: 50%;
           transform: translate(-50%,-15%) rotateZ(0deg);
-          padding-top: 5%;
     }
     .words img {
         width: 400px;
