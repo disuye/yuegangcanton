@@ -106,15 +106,12 @@ h3 {
     text-decoration: none;
     color: #231F20;
 }
-/** @media only screen and (max-height: 800px) {
-    .words {
-        top: 50%; left: 50%;
-          transform: translate(-50%,-15%) rotateZ(0deg);
-    }
-    .words img {
-        width: 400px;
-        max-width: 90vw !important;
-    }    
-}**/
-
+/** HIDE SCROLL BARS **/
+html::-webkit-scrollbar { /* Chrome, Safari, Opera */
+    display: none;
+}
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 /** END **/
