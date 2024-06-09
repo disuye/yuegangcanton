@@ -19,6 +19,7 @@ body {
     text-rendering: geometricPrecision;
     white-space: pre-line;
     overflow-x: hidden;
+    transition: 0.5s all ease-in-out; 
 }
 .words {
     display: block; 
@@ -29,7 +30,6 @@ body {
     cursor: default;
     background-color: transparent;
     padding-bottom: 5%;
-    transition: 0.5s all ease-in-out; 
 }
 .words img {
     width: 400px;
@@ -89,7 +89,24 @@ h3 {
     width:80vw;
     max-width:700px;
 }
+.footer {
+    display: block; 
+    position: fixed;
+    z-index: 10;
+    bottom: 0%;
+    width: calc(100vw - 0.2rem);
+    text-align: center;
+    cursor: default;
+    background-color: rgb(132, 0, 0);
+    font-size: 0.8rem;
+    color: #231F20;
+    padding: 0.1rem;
+}
 
+.footer a {
+    text-decoration: none;
+    color: #231F20;
+}
 /** @media only screen and (max-height: 800px) {
     .words {
         top: 50%; left: 50%;
