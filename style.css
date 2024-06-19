@@ -47,6 +47,7 @@ body {
 .dragon, .phoenix {
     display: block;
     position: absolute;
+    top: 0;
     width: 50vw;
     height: 100vh;
     background-size: cover;
