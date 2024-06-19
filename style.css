@@ -27,7 +27,7 @@ body {
     width: 100vw;
     height: 100vh; 
     left: 50%;
-    top: -6%;
+    top: 0;
     transform: translate(-50%,0%) rotateZ(0deg);
     text-align: center;
     z-index: -10;
@@ -47,7 +47,7 @@ body {
 .dragon, .phoenix {
     display: block;
     position: absolute;
-    top: 0;
+    top: -1rem; /* Not necessary, but footer height is 0.8rem + 0.1rem + 0.1rem padding */
     width: 50vw;
     height: 100vh;
     background-size: cover;
@@ -67,9 +67,12 @@ body {
     width: 400px;
     max-width: 90vw !important;
 }
-.small {
-font-style: normal !important;
-font-size: calc(0.8rem + 0.5vw);
+.smallinfo {
+    font-style: normal !important;
+    font-size: calc(0.8rem + 0.8vw);
+    display: block;
+    padding: 0 15%;
+    word-break: keep-all;
 }
 .words a {
     text-decoration: none; 
